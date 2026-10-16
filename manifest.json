@@ -18,16 +18,16 @@
       "sha256": "90724a0b8eb35c76863b85c49df9a54125d43799ac68cb522d97ea78ea3251ed"
     },
     "CREDITS.md": {
-      "bytes": 2255,
-      "sha256": "c884be3dfbc52af329ef0116dc4ed288752f7461957c4453ef36ee7eedeadb19"
+      "bytes": 2307,
+      "sha256": "6d2937a770336c77de63b81dd145e9b83bdd06d7737a4d64ba4887552c43930c"
     },
     "docs/format.md": {
       "bytes": 3648,
       "sha256": "8f7a783cb46632f220afdb34d54c01bfa35036e2926d57235ad386343c2daf9e"
     },
     "downloads/xiaoke-pet-v2.zip": {
-      "bytes": 9580909,
-      "sha256": "24484e5e4df6bbc6f10668721b25a834608b87ed80b741dd475d56c718d9f228"
+      "bytes": 9583542,
+      "sha256": "79f5da68cb9795644a43078b73df504eaa797252fc7c7565e15b8f57d3b84510"
     },
     "LICENSE.md": {
       "bytes": 992,
@@ -58,8 +58,8 @@
       "sha256": "96c222e40b2fd90e74496c60772549b7aa290a242632c52f0f0c3004a9b052cd"
     },
     "previews/hero.png": {
-      "bytes": 259850,
-      "sha256": "f42fe565128068f01581fd87900d2317efd3086d00807466238395c90885717e"
+      "bytes": 262494,
+      "sha256": "baefce1ca8baf0c6e5fa28c5537efd8644b0ab5d4a629a4381d0dd77786337e8"
     },
     "previews/idle-glide-left-idle.gif": {
       "bytes": 331733,
@@ -114,12 +114,12 @@
       "sha256": "37465b0e6ef0b486eb3c824a7d5d7473c7c76d54f5b8bc51c3ea82196c6ce274"
     },
     "README.en.md": {
-      "bytes": 5514,
-      "sha256": "3a10badd4a3e3b08d2c4e94fe0483f8c78a50bceca22a0ec6e4bbdb0a6d951d5"
+      "bytes": 5550,
+      "sha256": "ecb3cc59ee495d185d5a5900f328e7d5de4522e5e0f92bdad4d340b0c30406c2"
     },
     "README.md": {
-      "bytes": 4875,
-      "sha256": "d71686de88065bfe28d9f05661a267d72743bb04ff6496052a40360bed33c640"
+      "bytes": 4908,
+      "sha256": "ed585b4fd07fd5eb613ee7e04d0cf517899e3914e5c117ffe141aba88bb22243"
     },
     "requirements.txt": {
       "bytes": 13,

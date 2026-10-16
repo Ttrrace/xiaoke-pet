@@ -1,8 +1,8 @@
-# Xiaoke · 小柯
+# Xiaoke · Codex Desktop Pet
 
-**A white-haired, purple-eyed dragon girl to keep you company while coding, debugging, and waiting for inspiration.**
+**A Codex desktop pet based on a community-created personification of ChatGPT.**
 
-A compact chibi anime companion with gentle gliding, quiet thinking poses, and consistent proportions between standing and movement.
+Xiaoke keeps you company while coding, debugging, and waiting for inspiration. A compact chibi anime design with gentle gliding, quiet thinking poses, and consistent proportions between standing and movement.
 
 [中文](README.md) · **English**
 
@@ -31,14 +31,14 @@ A compact chibi anime companion with gentle gliding, quiet thinking poses, and c
 - Individual GIFs, state-transition GIFs, a complete MP4 preview, a contact sheet, and a direction sheet.
 - Chinese and English documentation, a layout specification, and standalone preview and verification tools.
 
-These are flat animated assets, not a Live2D or 3D model. They follow the ChatGPT Work Pets v2 sprite-sheet layout. Xiaoke is an unofficial, community-created fan character, not an official OpenAI character.
+These flat animated assets are intended for Codex desktop pets and follow the Pets v2 sprite-sheet layout. They are not a Live2D or 3D model. The design is based on a ChatGPT community persona, not an official OpenAI character.
 
 ## Usage
 
-### In an environment with Pets support
+### In Codex
 
 1. Download [spritesheet-extended.png](assets/spritesheet-extended.png), preserving its dimensions and transparent background.
-2. In ChatGPT Work with the Pets plugin enabled and custom pets supported, provide the PNG to your assistant. For example:
+2. In Codex with the Pets plugin enabled and custom pets supported, provide the PNG to your assistant. For example:
 
    > Validate this v2 pet sprite sheet, create a custom pet named Xiaoke, and select it.
 
