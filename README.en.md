@@ -12,11 +12,7 @@ Xiaoke keeps you company while coding, debugging, and waiting for inspiration. A
 
 ## Current client support
 
-This repository provides a **desktop-pet asset pack**. Nine animation states and sixteen gaze directions describe the sheet's contents; they do not guarantee that Codex triggers every state or follows the ordinary desktop pointer.
-
-The inspected Windows client, `26.1007.71326`, contains rendering logic for these states. By default, a non-idle animation plays three times and then returns to slow idle; dragging, hovering, and task notifications have different triggers. No supported switch for global gaze tracking of the ordinary system pointer was found. The user still observed idle after moving the task into the background, so task-driven behavior has not been verified end to end on this installation.
-
-See **[client triggers and limitations](docs/runtime.md)**. This project does not currently provide a pet-behavior enhancement plugin.
+Some animations aren't triggered by the current Codex client. The previews below show the full set.
 
 ## Animation asset previews
 

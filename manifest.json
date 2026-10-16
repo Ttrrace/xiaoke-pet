@@ -30,8 +30,8 @@
       "sha256": "5297fa461032426a9c446da6ee7dd85abd7863628ab126a79dbb53b250f0b71b"
     },
     "downloads/xiaoke-pet-v2.zip": {
-      "bytes": 9588702,
-      "sha256": "846f4536a4c99361238200c6b36c5b9058ab2ecb327e582959ae45595b4090bf"
+      "bytes": 9588088,
+      "sha256": "73d9a946ddb7c0a2fe25f1755c72299f22d25f874808a5614d4aaca579a1972d"
     },
     "LICENSE.md": {
       "bytes": 992,
@@ -118,12 +118,12 @@
       "sha256": "37465b0e6ef0b486eb3c824a7d5d7473c7c76d54f5b8bc51c3ea82196c6ce274"
     },
     "README.en.md": {
-      "bytes": 6860,
-      "sha256": "ae2cf071a16653e02a829a7bbf0904c78ea9ce4decaf8e2362f2768e3d42002e"
+      "bytes": 6114,
+      "sha256": "d0ac307fe43a01d28b68a48c4c25772b58bbf167ea1ae12d1a659ba82567a7b6"
     },
     "README.md": {
-      "bytes": 6107,
-      "sha256": "524d0d34ecb38473b656b1ce9c667292dcc1509939c7616f11b5e4cc98b8d09f"
+      "bytes": 5515,
+      "sha256": "32bdfb344c9efa849246dd37326da123a2dd299d403c6bcd085dbcff27805171"
     },
     "requirements.txt": {
       "bytes": 13,
