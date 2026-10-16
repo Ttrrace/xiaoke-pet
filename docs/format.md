@@ -58,6 +58,8 @@ frame = image.crop((left, top, left + 192, top + 208))
 
 `assets/layout.json` 记录了各行帧数和预览用毫秒时长。这些时长用于复现导出的 GIF，不是对客户端播放速度的设置。 / `assets/layout.json` records frame counts and preview durations in milliseconds. These reproduce the exported GIF cadence; they do not configure client playback.
 
+预览工具连续循环素材条带，不模拟原生浮窗的三遍播放后回待机、慢速待机或状态优先级。十六方向单元是素材格式的一部分，不会自行添加鼠标监听。实际支持情况见 [客户端触发说明](runtime.md)。 / The preview tool loops artwork strips; it does not simulate the floating client's three-repeat-then-idle sequence, slow idle, or state priorities. Sixteen gaze cells do not themselves add pointer tracking. See the [runtime notes](runtime.md).
+
 图集保持原始分辨率和透明通道，不要额外加边框、压扁、整体重排或将空单元填白。 / Preserve the original resolution and alpha channel. Do not add borders, distort or rearrange the sheet, or fill unused cells with white.
 
 ```bash

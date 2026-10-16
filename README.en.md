@@ -10,7 +10,17 @@ Xiaoke keeps you company while coding, debugging, and waiting for inspiration. A
 
 [Download the asset pack](https://github.com/Ttrrace/xiaoke-pet/raw/refs/heads/main/downloads/xiaoke-pet-v2.zip) · [Transparent sprite sheet](assets/spritesheet-extended.png) · [All animations GIF](previews/all-states.gif) · [MP4 preview](previews/all-states.mp4)
 
-## Animation previews
+## Current client support
+
+This repository provides a **desktop-pet asset pack**. Nine animation states and sixteen gaze directions describe the sheet's contents; they do not guarantee that Codex triggers every state or follows the ordinary desktop pointer.
+
+The inspected Windows client, `26.1007.71326`, contains rendering logic for these states. By default, a non-idle animation plays three times and then returns to slow idle; dragging, hovering, and task notifications have different triggers. No supported switch for global gaze tracking of the ordinary system pointer was found. The user still observed idle after moving the task into the background, so task-driven behavior has not been verified end to end on this installation.
+
+See **[client triggers and limitations](docs/runtime.md)**. This project does not currently provide a pet-behavior enhancement plugin.
+
+## Animation asset previews
+
+These GIFs loop the artwork strips for inspection. They are not client recordings and do not reproduce the client's full triggering or playback behavior.
 
 | Idle → glide right → idle | Idle → gentle float → idle |
 | :---: | :---: |
@@ -20,14 +30,14 @@ Xiaoke keeps you company while coding, debugging, and waiting for inspiration. A
 | :---: | :---: | :---: |
 | ![A small hand wave](previews/states/waving.gif) | ![Hands held together while waiting](previews/states/waiting.gif) | ![A quiet chin-touch thinking pose](previews/states/running.gif) |
 
-| A little disappointed | Reviewing results | Following your gaze |
+| A little disappointed | Reviewing results | Sixteen gaze poses |
 | :---: | :---: | :---: |
 | ![A subdued disappointment and recovery](previews/states/failed.gif) | ![A slight downward gaze while checking results](previews/states/review.gif) | ![Sixteen gaze directions](previews/look-loop.gif) |
 
 ## What's included
 
 - One transparent RGBA PNG sprite sheet: **1536 × 2288**, with **192 × 208** cells.
-- **Nine animation states and sixteen gaze directions: 73 occupied frames**. Unused cells remain transparent.
+- **Nine animation strips and sixteen gaze directions: 73 occupied frames**. Unused cells remain transparent. Actual triggering depends on the client.
 - Individual GIFs, state-transition GIFs, a complete MP4 preview, a contact sheet, and a direction sheet.
 - Chinese and English documentation, a layout specification, and standalone preview and verification tools.
 
@@ -44,7 +54,7 @@ These flat animated assets are intended for Codex desktop pets and follow the Pe
 
 3. Let the Pets tools validate, upload, create, and select the pet. If you already have a pet with that name, specify which existing pet you want to update.
 
-Your client must support these features; this repository does not install or enable the plugin. **Frame timing, mouse triggers, and loop counts are controlled by the client.** Replacing the sprite sheet does not change those settings. The GIFs show the export timing; actual playback also depends on client scaling and animation scheduling.
+Your client must support these features; this repository does not install or enable the plugin. **Frame timing, mouse triggers, and loop counts are controlled by the client.** Replacing the sprite sheet does not change those settings. The GIFs show artwork-strip timing; the inspected client also uses slow idle and a three-repeat-then-idle sequence. See the [runtime notes](docs/runtime.md).
 
 ### In another project
 
@@ -66,6 +76,7 @@ previews/                   Cover, GIFs, MP4, and comparison sheets
 previews/states/            Nine individual animation states
 downloads/                 Ready-to-download asset pack
 docs/format.md             Bilingual sprite-sheet specification
+docs/runtime.md            Client triggers and verification scope
 tools/                     Preview and file-integrity tools
 LICENSES/                  Full license texts
 ```
@@ -81,7 +92,7 @@ This is the **second artwork revision**, published as `2.0.0`. It focuses on con
 - Downloaded again after upload; decoded RGBA pixels matched this repository's sprite sheet.
 - Gaze differences near vertical directions are intentionally subtle. Some drawing variation remains across states; this is not a rigged model.
 
-These checks apply to the current files and do not imply that interaction has been tested in every client. Run `tools/verify_assets.py` to compare local files with [manifest.json](manifest.json).
+These checks validate the files, artwork, and stored upload. **They do not verify every animation trigger in the native floating pet.** Blind direction reviews assess the drawings' readability, not mouse-following behavior. Run `tools/verify_assets.py` to compare local files with [manifest.json](manifest.json).
 
 ## Reuse and attribution
 
