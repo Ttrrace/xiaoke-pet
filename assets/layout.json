@@ -1,0 +1,173 @@
+{
+  "version": "2.0.0",
+  "sprite_version": 2,
+  "size": [
+    1536,
+    2288
+  ],
+  "cell_size": [
+    192,
+    208
+  ],
+  "frames_per_row": [
+    6,
+    8,
+    8,
+    4,
+    5,
+    8,
+    6,
+    6,
+    6,
+    8,
+    8
+  ],
+  "occupied_frames": 73,
+  "states": [
+    {
+      "row": 0,
+      "key": "idle",
+      "frames": 6,
+      "preview_durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "key": "running-right",
+      "frames": 8,
+      "preview_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "key": "running-left",
+      "frames": 8,
+      "preview_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "key": "waving",
+      "frames": 4,
+      "preview_durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "key": "jumping",
+      "frames": 5,
+      "preview_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 5,
+      "key": "failed",
+      "frames": 8,
+      "preview_durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "key": "waiting",
+      "frames": 6,
+      "preview_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "key": "running",
+      "frames": 6,
+      "preview_durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "key": "review",
+      "frames": 6,
+      "preview_durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look": {
+    "rows": [
+      9,
+      10
+    ],
+    "angles_clockwise_from_up": [
+      0.0,
+      22.5,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.5,
+      225.0,
+      247.5,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ],
+    "preview_duration_ms": 180
+  }
+}

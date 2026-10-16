@@ -1,0 +1,137 @@
+{
+  "version": "2.0.0",
+  "files": {
+    ".gitattributes": {
+      "bytes": 124,
+      "sha256": "438968ff22be2372cb0cfa622a5bfb54bd2c3e20379b402173f94805fcba12f4"
+    },
+    ".gitignore": {
+      "bytes": 57,
+      "sha256": "a78e73913ff278a08978fbc274b74ab17b61ce4758ff467caa68e49eff81f806"
+    },
+    "assets/layout.json": {
+      "bytes": 2343,
+      "sha256": "ab7b2c3743114d11c261f6faabf88d4e00a3898b101da2a1f785e4abc23a51cf"
+    },
+    "assets/spritesheet-extended.png": {
+      "bytes": 2915596,
+      "sha256": "90724a0b8eb35c76863b85c49df9a54125d43799ac68cb522d97ea78ea3251ed"
+    },
+    "CREDITS.md": {
+      "bytes": 2255,
+      "sha256": "c884be3dfbc52af329ef0116dc4ed288752f7461957c4453ef36ee7eedeadb19"
+    },
+    "docs/format.md": {
+      "bytes": 3648,
+      "sha256": "8f7a783cb46632f220afdb34d54c01bfa35036e2926d57235ad386343c2daf9e"
+    },
+    "downloads/xiaoke-pet-v2.zip": {
+      "bytes": 9580909,
+      "sha256": "24484e5e4df6bbc6f10668721b25a834608b87ed80b741dd475d56c718d9f228"
+    },
+    "LICENSE.md": {
+      "bytes": 992,
+      "sha256": "d4aade5af6a46a8b6b8b50db63667afdaa0e938cde86f48770873343a3570bc8"
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "bytes": 17023,
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    "LICENSES/MIT.txt": {
+      "bytes": 1064,
+      "sha256": "9dd07ffa62c458cfe7b178cbba8ec9b14d61ff416c3e98295802ffa06f530c52"
+    },
+    "previews/all-states.gif": {
+      "bytes": 970753,
+      "sha256": "7425faca27c25099afca4982f9d4abd137139b07813fcf6956a1f1abd4a5f237"
+    },
+    "previews/all-states.mp4": {
+      "bytes": 1157802,
+      "sha256": "2fa8218d24bceabe6bcbd406d7e9aec07a264061f93c14215916653f03a604ac"
+    },
+    "previews/contact-sheet.png": {
+      "bytes": 2275903,
+      "sha256": "5463b13a3f1e5aba79d51f080b4351605361ae86882eaa577ea9acbf1325a505"
+    },
+    "previews/direction-sheet.png": {
+      "bytes": 863051,
+      "sha256": "96c222e40b2fd90e74496c60772549b7aa290a242632c52f0f0c3004a9b052cd"
+    },
+    "previews/hero.png": {
+      "bytes": 259850,
+      "sha256": "f42fe565128068f01581fd87900d2317efd3086d00807466238395c90885717e"
+    },
+    "previews/idle-glide-left-idle.gif": {
+      "bytes": 331733,
+      "sha256": "44eb9ba1b04789a592e6827c55242ed830f732e300ced0cb340727b994b333a4"
+    },
+    "previews/idle-glide-right-idle.gif": {
+      "bytes": 335106,
+      "sha256": "c8d6517c0febf5fb949a4af0498bb91e415c786f66b43904887c2f56609ad60c"
+    },
+    "previews/idle-jump-idle.gif": {
+      "bytes": 293670,
+      "sha256": "a3b1597198b5e4063d732189b3442fcaf3f44ad5d1d25f3caeca5768235365da"
+    },
+    "previews/look-loop.gif": {
+      "bytes": 282537,
+      "sha256": "d25a02ab2f3b82d2ccf9b09193b7fe9041406c0f73229ef76cb035e29074481b"
+    },
+    "previews/states/failed.gif": {
+      "bytes": 70478,
+      "sha256": "e8fc90f1329511762449a1896539e54c98f1e5277043fc34bb189401f39727d6"
+    },
+    "previews/states/idle.gif": {
+      "bytes": 61744,
+      "sha256": "7cd17866d2af980a9f6eca19bd714bd3ef9ad2397a6d0aa92ddad223d23b2bbc"
+    },
+    "previews/states/jumping.gif": {
+      "bytes": 51466,
+      "sha256": "cf490fe9586d5539c83a65f9a709508da062949c3f7e0125ce4af7039d59b8ee"
+    },
+    "previews/states/review.gif": {
+      "bytes": 63649,
+      "sha256": "eb428b81a49191fade8512c90a4a50ca9f576d896c347e9c5e68463baa4bf2db"
+    },
+    "previews/states/running-left.gif": {
+      "bytes": 70364,
+      "sha256": "25ea7d8edfc3eb412a6ed99d499805e5d5a1c0342d75b60446369be5210c0fcc"
+    },
+    "previews/states/running-right.gif": {
+      "bytes": 74404,
+      "sha256": "49a36fb6b91f08700e82769f80af57f9435e17bfd8924dec932286bdd90ddf8a"
+    },
+    "previews/states/running.gif": {
+      "bytes": 61486,
+      "sha256": "a3f6418a6dee3f15525b6765359f7e6d302edb680c33b6a43c4da4028a82178e"
+    },
+    "previews/states/waiting.gif": {
+      "bytes": 62235,
+      "sha256": "f22df26ea25dcd94f52bd2f11b9ae5fbce02ec8f5d2d69b0523ef7e20975d508"
+    },
+    "previews/states/waving.gif": {
+      "bytes": 45406,
+      "sha256": "37465b0e6ef0b486eb3c824a7d5d7473c7c76d54f5b8bc51c3ea82196c6ce274"
+    },
+    "README.en.md": {
+      "bytes": 5514,
+      "sha256": "3a10badd4a3e3b08d2c4e94fe0483f8c78a50bceca22a0ec6e4bbdb0a6d951d5"
+    },
+    "README.md": {
+      "bytes": 4875,
+      "sha256": "d71686de88065bfe28d9f05661a267d72743bb04ff6496052a40360bed33c640"
+    },
+    "requirements.txt": {
+      "bytes": 13,
+      "sha256": "dce978a554b00caca70d59f539d25c61fcc89681e02d7fec42948cd5c3c0a127"
+    },
+    "tools/preview.py": {
+      "bytes": 1555,
+      "sha256": "92dfd7539b7a3a2ea2e67fe8fd2d95569c3649cc74a86063c6f6b0808fdacd5f"
+    },
+    "tools/verify_assets.py": {
+      "bytes": 1689,
+      "sha256": "5d23ef11723b9f536a01111e76a181a09bfa030afe00711b046a6d8630bd8250"
+    }
+  }
+}
